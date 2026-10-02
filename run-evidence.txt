@@ -1,0 +1,18 @@
+> npm run preflight
+
+Node: v24.21.0
+Platform: win32 x64
+QAuto base URL: default public URL from config
+HTTP credentials configured: true
+Playwright CLI: Version 1.62.1
+Playwright CLI Chromium ready: true
+Playwright CLI config ready: true
+Course project structure: OK
+
+> npx playwright test tests/guest-add-car.spec.ts
+
+Running 1 test using 1 worker
+
+  ok 1 [chromium] › tests\guest-add-car.spec.ts:3:5 › Guest log in -> Add car -> Audi TT 12000 (6.0s)
+
+  1 passed (8.2s)
